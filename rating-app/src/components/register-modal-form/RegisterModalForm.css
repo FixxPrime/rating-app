@@ -1,0 +1,10 @@
+.register-modal{
+    display: flex;
+    justify-content: center;
+}
+
+.register-form{
+    min-width: 500px;
+
+    margin-top: 30px;
+}

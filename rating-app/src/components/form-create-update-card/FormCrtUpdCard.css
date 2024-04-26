@@ -1,0 +1,19 @@
+.form-container{
+    padding-left: 50px;
+    padding-right: 5px;
+
+    display: flex;
+    align-items: center;
+}
+
+.avatar-container{
+    margin-left: 20px;
+}
+
+.card-form{
+    min-width: 550px;
+}
+
+.form-title{
+    font-size: 20px;
+}

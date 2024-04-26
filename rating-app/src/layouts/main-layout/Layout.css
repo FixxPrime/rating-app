@@ -1,0 +1,17 @@
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+}
+
+.footer{
+    background-color: rgba(240,242,245,255);
+
+    text-align: center;
+    padding: 20px;
+    font-size: 14px;
+}

@@ -1,0 +1,10 @@
+.add-deparment-modal{
+    display: flex;
+    justify-content: center;
+}
+
+.add-deparment-form{
+    min-width: 500px;
+
+    margin-top: 30px;
+}

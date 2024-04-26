@@ -1,0 +1,14 @@
+.page{
+    background-color: rgba(240,242,245,255);
+    min-height: 1500px;
+}
+
+.board{
+    padding-top: 80px;
+    padding-left: 50px;
+    padding-right: 5px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

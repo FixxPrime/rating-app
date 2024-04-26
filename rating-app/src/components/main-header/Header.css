@@ -1,0 +1,60 @@
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+
+    display: flex;
+    justify-content: center;
+}
+
+.header-container{
+    width: 70%;
+    min-height: 50px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    user-select: none;
+}
+
+.NavLink {
+    text-decoration: none;
+    transition: transform 0.5s;
+
+    display: flex;
+    align-items: center;
+}
+  
+.NavLink:hover {
+    transform: scale(1.05);
+}
+
+.header-title{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #333;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin: 0;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .Logo {
+      animation: spin infinite 20s linear;
+    }
+  }
+  
+
+@keyframes spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }

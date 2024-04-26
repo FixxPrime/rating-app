@@ -1,0 +1,7 @@
+.page{
+    background-color: rgba(240,242,245,255);
+    min-height: 1000px;
+
+    display: flex;
+    justify-content: center;
+}
